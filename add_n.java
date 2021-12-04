@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class add_n {
     public static void main(String[] args) {
-        int n = Integer.parseInt(args[3]);
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+        input.close();
         int sum = 0;
         for (int i = 1; i <= n; i++) {
             sum += i;

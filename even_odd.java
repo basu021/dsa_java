@@ -12,5 +12,4 @@ public class even_odd {
             System.out.println("The number is odd");
         }
     }
-    
 }
